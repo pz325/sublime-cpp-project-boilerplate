@@ -10,7 +10,10 @@ Windows 7, MinGW, and cmake
 Install MinGW
 -------------
 + Download this from http://nuwen.net/mingw.html
-+ Add MinGW\bin to the system environment variable PATH
++ Add the following paths to the system environment variable PATH
+ + MinGW\bin
+ + MinGW\lib
+ + MinGW\include
 
 Install CMake
 -------------
