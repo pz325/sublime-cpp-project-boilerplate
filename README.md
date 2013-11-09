@@ -19,12 +19,14 @@ Install CMake
 
 Project structure
 -----------------
+<pre><code>
 {project root}
   /build
   CMakeList.txt
   head.h
   source.cpp
   /other_sources
+</code></pre>
 
 Usage
 -----
