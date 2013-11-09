@@ -15,3 +15,4 @@
 # sublime text 2 project setting
 *.sublime-workspace
 build
+*.exe
