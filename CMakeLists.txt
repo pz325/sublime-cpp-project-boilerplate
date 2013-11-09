@@ -1,9 +1,4 @@
-#Specify the version being used aswell as the language
-cmake_minimum_required(VERSION 2.6)
-#Name your project here
-project(helloworld)
-
-#Sends the -std=c99 flag to the gcc compiler
-#add_definitions(-std=c99)
-#This tells CMake to fib.c and name it fibonacci
-add_executable(helloworld helloworld.cpp)
+# example CMakeLists.txt
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+PROJECT(helloworld)
+ADD_EXECUTABLE(helloworld helloworld.cpp)
