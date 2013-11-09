@@ -11,3 +11,7 @@
 *.lai
 *.la
 *.a
+
+# sublime text 2 project setting
+*.sublime-workspace
+build
