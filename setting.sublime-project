@@ -16,7 +16,7 @@
                 {
                     "name": "cmake",
                     "cmd": [ "cmake", 
-                        "-D\"CMAKE_MAKE_PROGRAM:PATH=C:/MinGW/bin/make.exe\"", 
+                        "-DCMAKE_MAKE_PROGRAM:PATH=C:/MinGW/bin/make.exe", 
                         "-G", "MinGW Makefiles",
                         ".."],
                     "working_dir": "${project_path}/build"
